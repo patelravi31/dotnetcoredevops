@@ -15,6 +15,8 @@ namespace WebApplication1
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+
+            // love this commit
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
